@@ -1,4 +1,4 @@
-# GitOps 101!
+# GitOps 101
 
 ## Preparation
 
