@@ -3,6 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: podinfo
+  annotations:
+    fluxcd.io/tag.podinfo: glob:3.1.*
 spec:
   replicas: 3
   selector:
